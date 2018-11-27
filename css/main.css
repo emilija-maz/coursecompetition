@@ -1,0 +1,315 @@
+
+.jumbotron {
+  padding-top: 0px;
+
+
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url("images/index-crop.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: 'Georgia', cursive;
+  color: black;
+  margin-bottom: 1em;
+}
+
+
+blockquote {
+  border-left: 0;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+.jumbotron .form-group {
+  line-height: 1em;
+}
+
+.jumbotron label {
+  color: white;
+}
+.jumbotron img {
+  margin-top: 0px;
+
+}
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+body {
+padding-top: 0px;
+font-family: 'Georgia', cursive;
+
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+ 
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 20;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 75px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.about {
+ 
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+
+  text-align: center;
+  font-size: 25px;
+
+
+ display: block;
+
+}
+
+.center-with-space {
+
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+        padding-right: 20px;
+            padding-bottom: 10px;
+
+}
+
+
+.resize {
+
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.resize400 {
+
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.resize600 {
+
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.resize60 {
+
+  max-height: 400px;
+  max-width: 600px;
+}
+
+.tiny {
+  font-size: 15px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+input[type=submit] {
+    background-color: #D3CCD9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: #6554D1;
+}
+
+.container {
+    border-radius: 5px;
+    
+
+    background-color: white;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: none;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}body {
+  margin: 0;
+  font-family: Georgian;
+}
+
+
+
+table, th, td {
+    border: 3px ; /* buvo solid black */
+    border-color: black;
+    padding: 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    align-self: center;
+    box-sizing: : border-box;
+
+
+}
+table {
+    border-spacing: 10px;
+    margin-bottom: 69px;
+
+
+}
+
+th {
+   font-size: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+
+  }
+
+.bigger {
+
+  font-size: 50px;
+    text-align: center;
+
+  }
+
+
+  td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.super-centered {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    text-align:center; 
+    vertical-align:middle;
+    z-index: 9999;
+}
+
+.res {
+  max-width: 50%;
+  max-height: 50%
+
+
+
+}
+
+.des {
+
+  font-size: 20px;
+}
+
